@@ -17,7 +17,7 @@ on:
 jobs:
   build-and-upload:
     runs-on: ubuntu-latest
-    environment: stage # 환경변수 설정 확인
+    environment: dev # 환경변수 설정 확인
     steps:
       - name: 배포용 소스 다운로드
         uses: actions/checkout@v4
